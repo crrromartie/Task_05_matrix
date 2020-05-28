@@ -14,7 +14,7 @@ public class Matrix {
 	public static void init(int[][] mas) {
 		for (int i = 0; i < mas.length; i++) {
 			for (int j = 0; j < mas[i].length; j++) {
-				mas[i][j] = (int) (Math.random() * 11+1);
+				mas[i][j] = (int) (Math.random() * 11 + 1);
 			}
 		}
 	}
